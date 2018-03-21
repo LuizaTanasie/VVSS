@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbb83643-0920-439e-9e92-af55445daaaf" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NoteRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/NoteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteRepositoryMock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/NoteRepositoryMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/note/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNotaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/note/test/AddNotaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculeazaMediiTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/note/test/CalculeazaMediiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetCorigentiTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/note/test/GetCorigentiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/note" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/note">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>note</OriginalElement>
+              <nodes>
+                <node x="984.2707779623474" y="451.0">note.repository.EleviRepository</node>
+                <node x="602.0" y="241.0">note.model.Medie</node>
+                <node x="761.6236203396084" y="928.0">note.controller.NoteController</node>
+                <node x="853.9450489110366" y="684.0">note.repository.EleviRepositoryMock</node>
+                <node x="720.6160714285713" y="0.0">note.model.Elev</node>
+                <node x="697.5700489110366" y="1423.0">note.main.StartApp</node>
+                <node x="1256.6722314507194" y="451.0">note.repository.NoteRepository</node>
+                <node x="265.7499999999996" y="657.0">note.repository.ClasaRepositoryMock</node>
+                <node x="0.0" y="227.0">note.model.Corigent</node>
+                <node x="0.0" y="1532.0">note.utils.ClasaException</node>
+                <node x="107.34788205980021" y="424.0">note.repository.ClasaRepository</node>
+                <node x="1548.1722314507194" y="0.0">note.utils.Constants</node>
+                <node x="1165.7707779623474" y="670.5">note.repository.NoteRepositoryMock</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="note.controller.NoteController" target="note.model.Elev">
+                  <point x="195.1111111111111" y="-222.5" />
+                  <point x="1176.2347314507194" y="908.0" />
+                  <point x="1497.1722314507194" y="908.0" />
+                  <point x="1497.1722314507194" y="167.0" />
+                  <point x="902.0660714285714" y="167.0" />
+                  <point x="85.94999999999993" y="73.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.EleviRepositoryMock">
+                  <point x="0.0" y="-222.5" />
+                  <point x="981.1236203396084" y="908.0" />
+                  <point x="972.4450489110366" y="908.0" />
+                  <point x="0.0" y="73.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepositoryMock" target="note.repository.ClasaRepository">
+                  <point x="-62.714285714285666" y="-100.5" />
+                  <point x="422.53571428571394" y="637.0" />
+                  <point x="436.5978820598002" y="637.0" />
+                  <point x="109.75" y="86.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.model.Medie">
+                  <point x="-48.777777777777715" y="-222.5" />
+                  <point x="932.3458425618305" y="878.0" />
+                  <point x="798.4450489110366" y="878.0" />
+                  <point x="798.4450489110366" y="404.0" />
+                  <point x="773.8999999999999" y="404.0" />
+                  <point x="76.39999999999998" y="59.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.ClasaRepositoryMock">
+                  <point x="-97.55555555555543" y="-222.5" />
+                  <point x="883.5680647840529" y="888.0" />
+                  <point x="485.2499999999996" y="888.0" />
+                  <point x="0.0" y="100.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepositoryMock" target="note.model.Corigent">
+                  <point x="-188.1428571428571" y="-100.5" />
+                  <point x="297.1071428571425" y="627.0" />
+                  <point x="85.84788205980021" y="627.0" />
+                  <point x="85.84788205980021" y="394.0" />
+                  <point x="109.5" y="394.0" />
+                  <point x="0.0" y="73.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepository" target="note.model.Elev">
+                  <point x="0.0" y="-86.5" />
+                  <point x="326.84788205980027" y="167.0" />
+                  <point x="730.1660714285714" y="167.0" />
+                  <point x="-85.94999999999999" y="73.5" />
+                </edge>
+                <edge source="note.repository.EleviRepository" target="note.model.Elev">
+                  <point x="0.0" y="-59.5" />
+                  <point x="1098.2707779623474" y="177.0" />
+                  <point x="882.9660714285712" y="177.0" />
+                  <point x="66.84999999999991" y="73.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.NoteRepository">
+                  <point x="146.33333333333337" y="-222.5" />
+                  <point x="1127.4569536729416" y="898.0" />
+                  <point x="1449.2707779623474" y="898.0" />
+                  <point x="1449.2707779623474" y="637.0" />
+                  <point x="1429.1722314507194" y="637.0" />
+                  <point x="57.5" y="59.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepositoryMock" target="note.model.Medie">
+                  <point x="125.42857142857144" y="-100.5" />
+                  <point x="610.6785714285711" y="637.0" />
+                  <point x="649.2478820598003" y="637.0" />
+                  <point x="649.2478820598003" y="404.0" />
+                  <point x="659.3" y="404.0" />
+                  <point x="-38.19999999999999" y="59.5" />
+                </edge>
+                <edge source="note.model.Medie" target="note.model.Elev">
+                  <point x="-47.75" y="-59.5" />
+                  <point x="649.75" y="197.0" />
+                  <point x="787.4660714285715" y="197.0" />
+                  <point x="-28.649999999999977" y="73.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.model.Corigent">
+                  <point x="-195.1111111111111" y="-222.5" />
+                  <point x="786.0125092284973" y="908.0" />
+                  <point x="69.1950489110369" y="908.0" />
+                  <point x="69.1950489110369" y="404.0" />
+                  <point x="65.70000000000005" y="404.0" />
+                  <point x="-43.799999999999955" y="73.5" />
+                </edge>
+                <edge source="note.main.StartApp" target="note.model.Corigent">
+                  <point x="-78.75" y="-32.0" />
+                  <point x="723.8200489110366" y="1403.0" />
+                  <point x="58.195048911036906" y="1403.0" />
+                  <point x="58.195048911036906" y="404.0" />
+                  <point x="21.899999999999977" y="404.0" />
+                  <point x="-87.60000000000002" y="73.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepository" target="note.model.Medie">
+                  <point x="146.33333333333337" y="-86.5" />
+                  <point x="473.1812153931336" y="404.0" />
+                  <point x="621.0999999999999" y="404.0" />
+                  <point x="-76.39999999999998" y="59.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.ClasaRepository">
+                  <point x="-146.33333333333326" y="-222.5" />
+                  <point x="834.7902870062751" y="898.0" />
+                  <point x="172.69504891103657" y="898.0" />
+                  <point x="172.69504891103657" y="637.0" />
+                  <point x="217.0978820598002" y="637.0" />
+                  <point x="-109.75" y="86.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepositoryMock" target="note.model.Elev">
+                  <point x="62.71428571428578" y="-100.5" />
+                  <point x="547.9642857142853" y="637.0" />
+                  <point x="591.5" y="637.0" />
+                  <point x="591.5" y="187.0" />
+                  <point x="768.3660714285713" y="187.0" />
+                  <point x="-47.75" y="73.5" />
+                </edge>
+                <edge source="note.repository.EleviRepositoryMock" target="note.model.Elev">
+                  <point x="-88.875" y="-73.5" />
+                  <point x="883.5700489110366" y="637.0" />
+                  <point x="907.8749999999995" y="637.0" />
+                  <point x="907.8749999999995" y="207.0" />
+                  <point x="825.6660714285713" y="207.0" />
+                  <point x="9.549999999999955" y="73.5" />
+                </edge>
+                <edge source="note.repository.ClasaRepository" target="note.model.Corigent">
+                  <point x="-146.33333333333337" y="-86.5" />
+                  <point x="180.51454872646684" y="404.0" />
+                  <point x="197.0999999999999" y="404.0" />
+                  <point x="87.59999999999991" y="73.5" />
+                </edge>
+                <edge source="note.repository.NoteRepositoryMock" target="note.repository.NoteRepository">
+                  <point x="0.0" y="-87.0" />
+                  <point x="1302.2707779623474" y="637.0" />
+                  <point x="1314.1722314507194" y="637.0" />
+                  <point x="-57.5" y="59.5" />
+                </edge>
+                <edge source="note.main.StartApp" target="note.model.Medie">
+                  <point x="-26.25" y="-32.0" />
+                  <point x="776.3200489110366" y="1393.0" />
+                  <point x="723.9285714285713" y="1393.0" />
+                  <point x="723.9285714285713" y="404.0" />
+                  <point x="735.6999999999999" y="404.0" />
+                  <point x="38.19999999999999" y="59.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.EleviRepository">
+                  <point x="48.77777777777783" y="-222.5" />
+                  <point x="1029.9013981173862" y="878.0" />
+                  <point x="1155.2707779623474" y="878.0" />
+                  <point x="57.0" y="59.5" />
+                </edge>
+                <edge source="note.repository.EleviRepositoryMock" target="note.repository.EleviRepository">
+                  <point x="88.875" y="-73.5" />
+                  <point x="1061.3200489110366" y="637.0" />
+                  <point x="1041.2707779623474" y="637.0" />
+                  <point x="-57.0" y="59.5" />
+                </edge>
+                <edge source="note.main.StartApp" target="note.controller.NoteController">
+                  <point x="78.75" y="-32.0" />
+                  <point x="881.3200489110366" y="1403.0" />
+                  <point x="1090.8736203396084" y="1403.0" />
+                  <point x="109.75" y="222.5" />
+                </edge>
+                <edge source="note.controller.NoteController" target="note.repository.NoteRepositoryMock">
+                  <point x="97.55555555555554" y="-222.5" />
+                  <point x="1078.6791758951638" y="888.0" />
+                  <point x="1302.2707779623474" y="888.0" />
+                  <point x="0.0" y="87.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6355421686746987" x="338.6303317535546" y="357.6303317535546" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegrationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/note/test/IntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/note/main/StartApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/note/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/model/Corigent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/model/Elev.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/model/Medie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/model/Nota.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/ClasaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/ClasaRepositoryMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/EleviRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/EleviRepositoryMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/NoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/utils/ClasaException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/note/test/AddNotaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/note/test/CalculeazaMediiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/note/test/GetCorigentiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/note/test/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/main/StartApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/note/repository/NoteRepositoryMock.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1622" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectNoteElevi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectNoteElevi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="recording" autostart="false" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="recording" autostart="true" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="recording" autostart="true" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Cami\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbb83643-0920-439e-9e92-af55445daaaf" name="Default" comment="" />
+      <created>1519205787940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519205787940</updated>
+      <workItem from="1519205792216" duration="2194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2194000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1618" height="880" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33238637" sideWeight="0.5025094" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33238637" sideWeight="0.49749058" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24967575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JDT AST" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/controller/NoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/model/Corigent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/model/Elev.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/model/Medie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/model/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/ClasaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/ClasaRepositoryMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1507#1514#0" expanded="false" />
+            <element signature="e#2654#2664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/EleviRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/EleviRepositoryMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/NoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/utils/ClasaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/note/test/AddNotaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/note/test/CalculeazaMediiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/note/test/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/note/test/GetCorigentiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/note">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>note</OriginalElement>
+          <nodes>
+            <node x="984.2707779623474" y="451.0">note.repository.EleviRepository</node>
+            <node x="602.0" y="241.0">note.model.Medie</node>
+            <node x="761.6236203396084" y="928.0">note.controller.NoteController</node>
+            <node x="853.9450489110366" y="684.0">note.repository.EleviRepositoryMock</node>
+            <node x="720.6160714285713" y="0.0">note.model.Elev</node>
+            <node x="697.5700489110366" y="1423.0">note.main.StartApp</node>
+            <node x="1256.6722314507194" y="451.0">note.repository.NoteRepository</node>
+            <node x="265.7499999999996" y="657.0">note.repository.ClasaRepositoryMock</node>
+            <node x="0.0" y="227.0">note.model.Corigent</node>
+            <node x="0.0" y="1532.0">note.utils.ClasaException</node>
+            <node x="107.34788205980021" y="424.0">note.repository.ClasaRepository</node>
+            <node x="1548.1722314507194" y="0.0">note.utils.Constants</node>
+            <node x="1165.7707779623474" y="670.5">note.repository.NoteRepositoryMock</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="note.controller.NoteController" target="note.model.Elev">
+              <point x="195.1111111111111" y="-222.5" />
+              <point x="1176.2347314507194" y="908.0" />
+              <point x="1497.1722314507194" y="908.0" />
+              <point x="1497.1722314507194" y="167.0" />
+              <point x="902.0660714285714" y="167.0" />
+              <point x="85.94999999999993" y="73.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.EleviRepositoryMock">
+              <point x="0.0" y="-222.5" />
+              <point x="981.1236203396084" y="908.0" />
+              <point x="972.4450489110366" y="908.0" />
+              <point x="0.0" y="73.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepositoryMock" target="note.repository.ClasaRepository">
+              <point x="-62.714285714285666" y="-100.5" />
+              <point x="422.53571428571394" y="637.0" />
+              <point x="436.5978820598002" y="637.0" />
+              <point x="109.75" y="86.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.model.Medie">
+              <point x="-48.777777777777715" y="-222.5" />
+              <point x="932.3458425618305" y="878.0" />
+              <point x="798.4450489110366" y="878.0" />
+              <point x="798.4450489110366" y="404.0" />
+              <point x="773.8999999999999" y="404.0" />
+              <point x="76.39999999999998" y="59.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.ClasaRepositoryMock">
+              <point x="-97.55555555555543" y="-222.5" />
+              <point x="883.5680647840529" y="888.0" />
+              <point x="485.2499999999996" y="888.0" />
+              <point x="0.0" y="100.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepositoryMock" target="note.model.Corigent">
+              <point x="-188.1428571428571" y="-100.5" />
+              <point x="297.1071428571425" y="627.0" />
+              <point x="85.84788205980021" y="627.0" />
+              <point x="85.84788205980021" y="394.0" />
+              <point x="109.5" y="394.0" />
+              <point x="0.0" y="73.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepository" target="note.model.Elev">
+              <point x="0.0" y="-86.5" />
+              <point x="326.84788205980027" y="167.0" />
+              <point x="730.1660714285714" y="167.0" />
+              <point x="-85.94999999999999" y="73.5" />
+            </edge>
+            <edge source="note.repository.EleviRepository" target="note.model.Elev">
+              <point x="0.0" y="-59.5" />
+              <point x="1098.2707779623474" y="177.0" />
+              <point x="882.9660714285712" y="177.0" />
+              <point x="66.84999999999991" y="73.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.NoteRepository">
+              <point x="146.33333333333337" y="-222.5" />
+              <point x="1127.4569536729416" y="898.0" />
+              <point x="1449.2707779623474" y="898.0" />
+              <point x="1449.2707779623474" y="637.0" />
+              <point x="1429.1722314507194" y="637.0" />
+              <point x="57.5" y="59.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepositoryMock" target="note.model.Medie">
+              <point x="125.42857142857144" y="-100.5" />
+              <point x="610.6785714285711" y="637.0" />
+              <point x="649.2478820598003" y="637.0" />
+              <point x="649.2478820598003" y="404.0" />
+              <point x="659.3" y="404.0" />
+              <point x="-38.19999999999999" y="59.5" />
+            </edge>
+            <edge source="note.model.Medie" target="note.model.Elev">
+              <point x="-47.75" y="-59.5" />
+              <point x="649.75" y="197.0" />
+              <point x="787.4660714285715" y="197.0" />
+              <point x="-28.649999999999977" y="73.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.model.Corigent">
+              <point x="-195.1111111111111" y="-222.5" />
+              <point x="786.0125092284973" y="908.0" />
+              <point x="69.1950489110369" y="908.0" />
+              <point x="69.1950489110369" y="404.0" />
+              <point x="65.70000000000005" y="404.0" />
+              <point x="-43.799999999999955" y="73.5" />
+            </edge>
+            <edge source="note.main.StartApp" target="note.model.Corigent">
+              <point x="-78.75" y="-32.0" />
+              <point x="723.8200489110366" y="1403.0" />
+              <point x="58.195048911036906" y="1403.0" />
+              <point x="58.195048911036906" y="404.0" />
+              <point x="21.899999999999977" y="404.0" />
+              <point x="-87.60000000000002" y="73.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepository" target="note.model.Medie">
+              <point x="146.33333333333337" y="-86.5" />
+              <point x="473.1812153931336" y="404.0" />
+              <point x="621.0999999999999" y="404.0" />
+              <point x="-76.39999999999998" y="59.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.ClasaRepository">
+              <point x="-146.33333333333326" y="-222.5" />
+              <point x="834.7902870062751" y="898.0" />
+              <point x="172.69504891103657" y="898.0" />
+              <point x="172.69504891103657" y="637.0" />
+              <point x="217.0978820598002" y="637.0" />
+              <point x="-109.75" y="86.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepositoryMock" target="note.model.Elev">
+              <point x="62.71428571428578" y="-100.5" />
+              <point x="547.9642857142853" y="637.0" />
+              <point x="591.5" y="637.0" />
+              <point x="591.5" y="187.0" />
+              <point x="768.3660714285713" y="187.0" />
+              <point x="-47.75" y="73.5" />
+            </edge>
+            <edge source="note.repository.EleviRepositoryMock" target="note.model.Elev">
+              <point x="-88.875" y="-73.5" />
+              <point x="883.5700489110366" y="637.0" />
+              <point x="907.8749999999995" y="637.0" />
+              <point x="907.8749999999995" y="207.0" />
+              <point x="825.6660714285713" y="207.0" />
+              <point x="9.549999999999955" y="73.5" />
+            </edge>
+            <edge source="note.repository.ClasaRepository" target="note.model.Corigent">
+              <point x="-146.33333333333337" y="-86.5" />
+              <point x="180.51454872646684" y="404.0" />
+              <point x="197.0999999999999" y="404.0" />
+              <point x="87.59999999999991" y="73.5" />
+            </edge>
+            <edge source="note.repository.NoteRepositoryMock" target="note.repository.NoteRepository">
+              <point x="0.0" y="-87.0" />
+              <point x="1302.2707779623474" y="637.0" />
+              <point x="1314.1722314507194" y="637.0" />
+              <point x="-57.5" y="59.5" />
+            </edge>
+            <edge source="note.main.StartApp" target="note.model.Medie">
+              <point x="-26.25" y="-32.0" />
+              <point x="776.3200489110366" y="1393.0" />
+              <point x="723.9285714285713" y="1393.0" />
+              <point x="723.9285714285713" y="404.0" />
+              <point x="735.6999999999999" y="404.0" />
+              <point x="38.19999999999999" y="59.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.EleviRepository">
+              <point x="48.77777777777783" y="-222.5" />
+              <point x="1029.9013981173862" y="878.0" />
+              <point x="1155.2707779623474" y="878.0" />
+              <point x="57.0" y="59.5" />
+            </edge>
+            <edge source="note.repository.EleviRepositoryMock" target="note.repository.EleviRepository">
+              <point x="88.875" y="-73.5" />
+              <point x="1061.3200489110366" y="637.0" />
+              <point x="1041.2707779623474" y="637.0" />
+              <point x="-57.0" y="59.5" />
+            </edge>
+            <edge source="note.main.StartApp" target="note.controller.NoteController">
+              <point x="78.75" y="-32.0" />
+              <point x="881.3200489110366" y="1403.0" />
+              <point x="1090.8736203396084" y="1403.0" />
+              <point x="109.75" y="222.5" />
+            </edge>
+            <edge source="note.controller.NoteController" target="note.repository.NoteRepositoryMock">
+              <point x="97.55555555555554" y="-222.5" />
+              <point x="1078.6791758951638" y="888.0" />
+              <point x="1302.2707779623474" y="888.0" />
+              <point x="0.0" y="87.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6355421686746987" x="338.6303317535546" y="357.6303317535546" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/note/repository/NoteRepositoryMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

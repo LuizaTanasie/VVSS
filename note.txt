@@ -1,0 +1,8 @@
+1;biologie;7
+1;mate;6
+2;chimie;4
+3;religie;9
+3;mate;5
+5;biologie;4
+5;chimie;3
+4;filosofie;3
