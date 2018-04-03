@@ -32,7 +32,7 @@ public class NoteRepositoryMock implements NoteRepository{
 
 	private boolean validareNota(Nota nota) throws ClasaException {
 		// TODO Auto-generated method stub
-		if(nota.getMaterie().length() < 5 || nota.getMaterie().length() > 20)
+		if(nota.getMaterie().length() < 3 || nota.getMaterie().length() > 20)
 			throw new ClasaException(Constants.invalidMateria);
 		if(nota.getNrmatricol() < Constants.minNrmatricol || nota.getNrmatricol() > Constants.maxNrmatricol)
 			throw new ClasaException(Constants.invalidNrmatricol);
