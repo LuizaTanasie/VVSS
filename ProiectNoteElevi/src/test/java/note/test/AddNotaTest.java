@@ -31,6 +31,9 @@ public class AddNotaTest {
 		Nota nota = new Nota(1, "materie", 8);
 		ctrl.addNota(nota);
 		assertEquals(1, ctrl.getNote().size());
+		assertEquals(1, ctrl.getNote().get(0).getNrmatricol(),0.00001);
+		assertEquals(8, ctrl.getNote().get(0).getNota(),0.00001);
+		assertEquals("materie", ctrl.getNote().get(0).getMaterie());
 	}
 
 	@Test
@@ -78,6 +81,9 @@ public class AddNotaTest {
 		Nota nota = new Nota(4, "materie", 10);
 		ctrl.addNota(nota);
 		assertEquals(1, ctrl.getNote().size());
+		assertEquals(4, ctrl.getNote().get(0).getNrmatricol(),0.00001);
+		assertEquals(10, ctrl.getNote().get(0).getNota(),0.00001);
+		assertEquals("materie", ctrl.getNote().get(0).getMaterie());
 	}
 
 	@Test
@@ -93,6 +99,9 @@ public class AddNotaTest {
 		Nota nota = new Nota(Integer.MAX_VALUE, "materie", 5);
 		ctrl.addNota(nota);
 		assertEquals(1, ctrl.getNote().size());
+		assertEquals(Integer.MAX_VALUE, ctrl.getNote().get(0).getNrmatricol(),0.00001);
+		assertEquals(5, ctrl.getNote().get(0).getNota(),0.00001);
+		assertEquals("materie", ctrl.getNote().get(0).getMaterie());
 	}
 
 	@Test
@@ -100,6 +109,9 @@ public class AddNotaTest {
 		Nota nota = new Nota(Integer.MAX_VALUE-1, "materie", 5);
 		ctrl.addNota(nota);
 		assertEquals(1, ctrl.getNote().size());
+		assertEquals(Integer.MAX_VALUE-1, ctrl.getNote().get(0).getNrmatricol(),0.00001);
+		assertEquals(5, ctrl.getNote().get(0).getNota(),0.00001);
+		assertEquals("materie", ctrl.getNote().get(0).getMaterie());
 	}
 
 	@Test
@@ -115,6 +127,9 @@ public class AddNotaTest {
 		Nota nota = new Nota(1, "Materieeeeeeeeeee123", 5);
 		ctrl.addNota(nota);
 		assertEquals(1, ctrl.getNote().size());
+		assertEquals(1, ctrl.getNote().get(0).getNrmatricol(),0.00001);
+		assertEquals(5, ctrl.getNote().get(0).getNota(),0.00001);
+		assertEquals("Materieeeeeeeeeee123", ctrl.getNote().get(0).getMaterie());
 	}
 
 
