@@ -24,12 +24,13 @@ public class ClasaRepositoryMock implements ClasaRepository{
 	@Override
 	public void creazaClasa(List<Elev> elevi, List<Nota> note) {
 		// TODO Auto-generated method stub
-		List<String> materii = new LinkedList<String>();
-		for(Nota nota : note) {
-			if(!materii.contains(nota.getMaterie()))
-					materii.add(nota.getMaterie());
-		}
+
 		for (Elev elev : elevi) {
+			List<String> materii = new LinkedList<String>();
+			for(Nota nota : note) {
+				if(!materii.contains(nota.getMaterie()) && nota.getNrmatricol()==elev.getNrmatricol())
+					materii.add(nota.getMaterie());
+			}
 			HashMap<String, List<Double>> situatie = new HashMap<String, List<Double>>();
 			for(String materie : materii) {
 				List<Double> noteMaterie = new LinkedList<Double>();
@@ -49,6 +50,22 @@ public class ClasaRepositoryMock implements ClasaRepository{
 		return clasa;
 	}
 
+	private Double calculeazaMediaLaOMaterie(List<Double> noteElev){
+		int nrNote = noteElev.size();
+		int indexNotaLaMaterie = 0;
+		double suma = 0;
+		if(nrNote > 0) {
+			while (indexNotaLaMaterie < nrNote) {
+				double nota = noteElev.get(indexNotaLaMaterie);
+				suma += nota;
+				indexNotaLaMaterie++;
+			}
+			return suma/nrNote;
+		}
+		else return (double)0;
+	}
+
+
 	@Override
 	public List<Medie> calculeazaMedii() throws ClasaException {
 		// TODO Auto-generated method stub
@@ -64,24 +81,16 @@ public class ClasaRepositoryMock implements ClasaRepository{
 				for(String materie : clasa.get(elev).keySet()) {
 					List<Double> noteElev = clasa.get(elev).get(materie);
 					int nrNote = noteElev.size();
-					nrMaterii+=nrNote;
-					int indexNotaLaMaterie = 0;
-					double suma = 0;
-					if(nrNote > 0) {
-						while(indexNotaLaMaterie < nrNote) {
-							double nota = noteElev.get(indexNotaLaMaterie);
-							suma += nota;
-							indexNotaLaMaterie++;
-						}
-						sumaMedii = sumaMedii + suma/indexNotaLaMaterie;
-					}
+					nrMaterii++;
+					Double mediaMaterie = calculeazaMediaLaOMaterie(noteElev);
+					sumaMedii = sumaMedii + mediaMaterie;
 				}
 				medieElev = sumaMedii / nrMaterii;
+				if (nrMaterii==0) medieElev = (double)0;
 				medie.setMedie(medieElev);
 				medii.add(medie);
 			}
-		}
-		else 
+		} else
 			throw new ClasaException(Constants.emptyRepository);
 		return medii;
 	}

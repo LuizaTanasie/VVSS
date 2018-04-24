@@ -20,7 +20,7 @@ import note.utils.Constants;
 import note.controller.NoteController;
 
 public class IntegrationTest {
-
+/*
 	NoteController ctrl;
 	
 	@Before
@@ -181,4 +181,5 @@ public class IntegrationTest {
 		//P->B->A->C B-valid A-valid C-invalid
 	}
 */
+
 }
