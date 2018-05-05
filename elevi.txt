@@ -1,6 +1,0 @@
-1;Ion
-2;Popescu
-3;Marinescu
-4;Vasile
-5;Anton
-6;Mihai

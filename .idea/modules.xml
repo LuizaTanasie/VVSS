@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProiectNoteElevi/src/main/main.iml" filepath="$PROJECT_DIR$/ProiectNoteElevi/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProiectNoteElevi/src/test/test.iml" filepath="$PROJECT_DIR$/ProiectNoteElevi/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProiectNoteElevi.iml" filepath="$PROJECT_DIR$/ProiectNoteElevi.iml" />
     </modules>
   </component>
 </project>
