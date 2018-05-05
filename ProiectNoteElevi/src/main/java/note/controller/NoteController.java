@@ -67,7 +67,7 @@ public class NoteController {
 		note.readNote(fisier);
 	}
 	
-	public List<Corigent> getCorigenti() {
+	public List<Corigent> getCorigenti() throws ClasaException {
 		return clasa.getCorigenti();
 	}
 }

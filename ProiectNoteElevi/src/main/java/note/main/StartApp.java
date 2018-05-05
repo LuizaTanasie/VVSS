@@ -72,7 +72,11 @@ public class StartApp {
 						for(Medie medie:medii)
 							System.out.println(medie);
 						break;
-				case 3: corigenti = ctrl.getCorigenti();
+				case 3: try {corigenti = ctrl.getCorigenti();}
+				catch (ClasaException ex){
+					System.out.println(ex.getMessage());
+				}
+
 						for(Corigent corigent:corigenti)
 							System.out.println(corigent);
 						break;
